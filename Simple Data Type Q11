@@ -16,7 +16,7 @@ print("Q5:", string[2])   # " "
 Question 6 (Strings 2)
 # string immutability example
 string = "I Bove python"
-# string[2] = "L"  # This will not work → strings are immutable
+# string[2] = "L"  # This will not work
 print("Q6: string[2]")
 
 Question 9
