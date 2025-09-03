@@ -1,0 +1,30 @@
+Question 1 (Booleans)
+# boolean True + boolean True - boolean False = ?
+print("Q1:", True + True - False)   # 2
+
+Question 2 (Booleans 2)
+logical_tracker = True
+logical_tracker = logical_tracker & logical_tracker
+logical_tracker = logical_tracker | (logical_tracker - logical_tracker)
+print("Q2:", logical_tracker)   # True
+
+Question 5 (Strings)
+# string = "E. Coli" → string[2] ?
+string = "E. Coli"
+print("Q5:", string[2])   # " "
+
+Question 6 (Strings 2)
+# string immutability example
+string = "I Bove python"
+# string[2] = "L"  # This will not work → strings are immutable
+print("Q6: string[2]")
+
+Question 9
+a = 2 + 3
+b = "hi" + "there"
+print("Q9 integers:", a)      # 5
+print("Q9 strings:", b)       # "hithere"
+
+Question 10
+# "7" + "3" 
+print("Q10:", "7" + "3")   # "73"
